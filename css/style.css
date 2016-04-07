@@ -1,0 +1,62 @@
+body{
+	background-color: #303030;
+	color: white;
+	text-align: center;
+	font-family: 'Inconsolata';
+}
+
+.option{
+	display: inline-block;
+	background-color: white;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	cursor: pointer;
+	margin: 20px 8px;
+	transition: all 0.80s ease;
+}
+
+.score{
+	margin-top: 40px;
+	font-size: 24px;
+}
+
+.question-cont{
+	position: absolute;
+	top: 40%;
+	width: 100%;
+}
+
+.question{
+	font-size: 28px;
+}
+
+
+.option.scale{
+	transform: scale(46);
+}
+
+.result{
+	display: none;
+	position: absolute;
+	width: 100%;
+	top:40%; 
+}
+
+.result span{
+	font-size: 42px;
+	font-weight: bold;
+}
+
+.result .close{
+	margin-top: 70px;
+}
+
+.result .close a{
+	color: white;
+	font-size: 21px;
+	text-decoration: none;
+	border: 5px solid white;
+	padding: 10px 15px;
+	border-radius: 5px;
+}
